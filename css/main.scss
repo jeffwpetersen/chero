@@ -5,8 +5,11 @@
 @import "foundation/settings";
 @import "foundation/components/grid";
 @import "foundation/components/visibility";
+@import "fonts";
+@import "font-awesome/font-awesome";
 
 body {
+  font-family: oswald;
 }
 
 .columns {
