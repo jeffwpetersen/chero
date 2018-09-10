@@ -27,3 +27,8 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Performance-booster for watching directories on Windows
 # gem "wdm", "~> 0.1.0" if Gem.win_platform?
+
+gem 'zurb-foundation', '~> 4.0.4'
+gem "sass", "~> 3.4.22"
+gem "susy"
+gem "compass"

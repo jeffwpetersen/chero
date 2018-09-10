@@ -1,25 +1,26 @@
-<nav>
-    <div class="top-bar">
-        <div class="top-bar-left">
-            <ul class="dropdown menu" data-dropdown-menu>
-                <li class="menu-text">Site Title</li>
-                <li>
-                    <a href="#">One</a>
-                    <ul class="menu vertical">
-                        <li><a href="#">One</a></li>
-                        <li><a href="#">Two</a></li>
-                        <li><a href="#">Three</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Two</a></li>
-                <li><a href="#">Three</a></li>
-            </ul>
+<nav data-sticky-container>
+    <div class="sticky" data-sticky data-sticky-on="small" data-options="marginTop:0;" style="width:100%">
+        <div class="title-bar no-js" data-responsive-toggle="site-menu" data-hide-for="medium">
+            <button class="menu-icon" type="button" data-toggle></button>
+            <div class="title-bar-title">Menu</div>
         </div>
-        <div class="top-bar-right">
-            <ul class="menu">
-                <li><input type="search" placeholder="Search"></li>
-                <li><button type="button" class="button">Search</button></li>
-            </ul>
-        </div>
+
+        <ul id="site-menu" class="no-js vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
+            <li>
+                <ul class="dropdown menu" data-dropdown-menu>
+                    <li class="menu-text">Site Title</li>
+                    <li>
+                        <a href="#">One</a>
+                        <ul class="menu vertical">
+                            <li><a href="#">One</a></li>
+                            <li><a href="#">Two</a></li>
+                            <li><a href="#">Three</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Two</a></li>
+                    <li><a href="#">Three</a></li>
+                </ul>
+            </li>
+        </ul>
     </div>
 </nav>
